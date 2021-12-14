@@ -1,0 +1,83 @@
+/* This code is made by Himanshu Sahni */
+
+/* Common Styling */
+* {
+	box-sizing: border-box;
+}
+
+/* Styling Font */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+html {
+	height: 100%;
+	margin: 0;
+}
+
+div.container {
+	display: flex;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.7;
+}
+
+#container1,
+#container4 {
+	background-image: url(../Images/Hero_Image_Uncropped.jpeg);
+	height: 100%;
+}
+#container2 {
+	background-image: url(../Images/camels.jpg);
+	height: 80%;
+}
+#container3 {
+	background-image: url(../Images/Blog_1_\(Feature\).jpg);
+	height: 80%;
+}
+
+#container1_text,
+#container4_text {
+	color: #ffffff;
+}
+
+#container2_text {
+	color: #ffffff;
+}
+
+#container3_text {
+	color: #ffffff;
+}
+
+div.center {
+	text-align: center;
+	font-size: 40px;
+	padding: 20px;
+	background-color: #303030;
+}
+
+div.text {
+	padding: 100px;
+	text-align: center;
+	line-height: 30px;
+}
+
+#text1 {
+	background-color: #4c4c4c;
+}
+#text2 {
+	background-color: #874f4f;
+}
+#text3 {
+	background-color: #5689f1;
+}
+
+div.text_heading {
+	font-size: 25px;
+	padding: 15px;
+	font-weight: bold;
+}
